@@ -2,7 +2,7 @@
 
 import unittest
 import feedparser
-from redditfeed import reddit_rss
+from reddit_feed import reddit_rss
 
 #Test that function reddit_rss() has a string length of greater than 5,00.
 class TestReddit(unittest.TestCase):
