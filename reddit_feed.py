@@ -46,9 +46,11 @@ def reddit_rss(rss_address):
     soup = BeautifulSoup(summary_list, "lxml")
     print(soup.text)
 
+    return soup.text
+
 reddit_rss("https://reddit.com/r/python.rss")
 
-#Different programming subredit addresses below.
+#Different programming subredit addresses below. Copy and paste into function parameter of reddit_rss() .
 #"https://reddit.com/r/rust.rss"
 #"https://reddit.com/r/programming.rss"
 #"https://reddit.com/r/java.rss"
