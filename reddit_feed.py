@@ -49,9 +49,9 @@ def reddit_rss(rss_address):
 reddit_rss("https://reddit.com/r/python.rss")
 
 #Different programming subredit addresses below.
-#a = feedparser.parse("https://reddit.com/r/rust.rss")
-#a = feedparser.parse("https://reddit.com/r/programming.rss")
-#a = feedparser.parse("https://reddit.com/r/java.rss")
-#a = feedparser.parse("https://reddit.com/r/django.rss")
-#a = feedparser.parse("https://reddit.com/r/python.rss")
-#a = feedparser.parse("https://reddit.com/r/flask.rss")
+#"https://reddit.com/r/rust.rss"
+#"https://reddit.com/r/programming.rss"
+#"https://reddit.com/r/java.rss"
+#"https://reddit.com/r/django.rss"
+#"https://reddit.com/r/python.rss"
+#"https://reddit.com/r/flask.rss"
