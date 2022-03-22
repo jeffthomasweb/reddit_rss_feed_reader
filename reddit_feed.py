@@ -8,7 +8,7 @@ import lxml
 #Function reddit_rss() get the RSS feed post titles and summaries.
 
 
-#Enter subreddit RSS address in quotes function parameter on line 49.
+#Enter subreddit RSS website address in quotes for the function on line 51.
 def reddit_rss(rss_address):
     a = feedparser.parse(rss_address)
     #I tried using a for loop to make this cleaner but I was receiving typing errors when doing this.
